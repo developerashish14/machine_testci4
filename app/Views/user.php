@@ -194,7 +194,7 @@
 <div id="editEmployeeModal" class="modal fade">
     <div class="modal-dialog">
 		<div class="modal-content">
-            <form class="form-submission" method="post" action="<?= site_url('user/update_user')?>">
+            <form class="form-submit" method="post" action="<?= site_url('user/update_user')?>">
 								
 				<div class="modal-header">						
 					<h4 class="modal-title">Update Employee</h4>
@@ -525,6 +525,10 @@ $(document).ready(function(){
             });
         }
     });
+
+
+    
+   
    
    
 });
